@@ -1,2 +1,7 @@
-# express-route-refactored
-多Agent协作的代码重构示例 - TypeScript/Express路由重构实践
+## 📌 说明
+本文件为多 Agent 重构工作流的输出示例，展示如何将 500 行遗留路由重构为类型安全、职责清晰的生产级代码。
+
+⚠️ 注意：  
+- `productService` / `cacheService` 为外部依赖占位，需根据实际业务实现  
+- 鉴权中间件需自行集成（示例假设请求已携带 `req.user`）  
+- 本文件可直接复制使用，但需配合完整工程上下文
